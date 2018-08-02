@@ -9,6 +9,10 @@ git checkout -- filename 拉取"暂存区"文件替换到"工作区"
 git rm --cahead filename 删除暂存区的文件
 git rm -f filename 删除暂存区和工作区的文件（无视修改）
 
+git diff 比较工作区和暂存区的差异
+git diff --staged 比较暂存区和版本库的差异
+
+
 
 VsCode
 Shitt+Art+↓ //复制当前行
