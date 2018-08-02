@@ -1,0 +1,64 @@
+<!-- tr行（横） 列（竖） -->
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<!-- colgroup -->
+<table border="1">
+    <caption>表格标题</caption>
+    <colgroup span="2" width="50">表格中的一组列表</colgroup>
+    <!-- 默认有个span属性（表示“列”——默认“1”）【前两列(span) 表格 50宽度(width)】 -->
+    <tbody>
+        <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+        <tr><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+    </tbody>
+</table>
+
+<!-- col -->
+<p></p>
+<table border="1">
+    <colgroup>表格中的一组列表
+        <col width="50"> <!-- 第一列50像素 -->
+        <col span="2" width="100"> <!-- 第二个 第二，三列100像素 -->
+    </colgroup>
+    <tbody>
+        <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+        <tr><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+    </tbody>
+</table>
+
+<!-- tbody(行数据 子元素tr 可多个出现) -->
+<!-- td(表格中的单元格)
+    元素
+        colspan(跨越多少列)
+        rowspan(跨越多少行)
+        headers(单元格相关th的id) -->
+
+<!-- th(单元格标题=加粗的td)
+    元素
+        colspan(跨越多少列)
+        rowspan(跨越多少行)
+        headers(单元格相关th的id)
+        scope(只有语义效果，没有视觉效果) -->
+<p></p>
+<table border="1">
+    <caption>照片冲印价格详情</caption>
+    <thead>
+        <tr><th>相片尺寸</th><th>富士</th><th>柯达</th></tr>
+    </thead>
+    <tbody>
+        <tr><th>6寸</th><td>0.45</td><td>0.6</td></tr>
+        <tr><th>6寸</th><td>0.45</td><td>0.6</td></tr>
+        <tr><th>6寸</th><td>0.45</td><td>0.6</td></tr>
+        <tr><th>6寸</th><td>0.45</td><td>0.6</td></tr>
+        <tr><th>6寸</th><td>0.45</td><td>0.6</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><td colspan="3">运费8元/单，满99免运费</td></tr>
+    </tfoot>
+</table>
+</body>
+</html>
+
