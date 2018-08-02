@@ -11,8 +11,14 @@ git rm -f filename 删除暂存区和工作区的文件（无视修改）
 
 git diff 比较工作区和暂存区的差异
 git diff --staged 比较暂存区和版本库的差异
+git diff SHA1 SHA1 比较不同版本库的差异
+git diff brancgname 比较不同分支的差异
 
-
+git stash 保存当前工作状态并返回修改之前的状态
+git stash list 查看保存的工作状态
+git stash apply stash@{number} 拉回保存的修改到本地
+git stash pop stash@{number}拉回修改 并删除记录
+git stash drop stash@{number} 删除保存的记录
 
 VsCode
 Shitt+Art+↓ //复制当前行
