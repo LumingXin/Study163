@@ -1,6 +1,4 @@
-Git is a version control system.
-Git is free software.
-Creating a new branch is quick and simple.
-...
-..
-.
+VsCode
+Shitt+Art+↓ //复制当前行
+Shift+Ctrl+K //删除当前行
+Ctrl+Enter //新起一行
