@@ -1,5 +1,7 @@
 ﻿git常用命令：
 
+git remote -v 查看远程仓库
+
 git add 将文件保存到暂存区
 git commit -m 'XXX' XXX表示提交说明，该命令是将文件从暂存区提交到提交区
 
