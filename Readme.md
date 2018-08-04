@@ -1,28 +1,30 @@
-﻿git常用命令：
+git常用命令：
 
 git remote -v 查看远程仓库
 
-git add 将文件保存到暂存区
+git add 将文件保存到暂存区.
+
 git commit -m 'XXX' XXX表示提交说明，该命令是将文件从暂存区提交到提交区
 
-git reset HEAD filename 拉取最近一次"提交区"文件到"暂存区"但不影响"工作区"
+git reset HEAD filename 拉取最近一次"提交区"文件到"暂存区"但不影响"工作区"</br>
 git checkout -- filename 拉取"暂存区"文件替换到"工作区"
 
-git rm --cahead filename 删除暂存区的文件
+git rm --cahead filename 删除暂存区的文件</br>
 git rm -f filename 删除暂存区和工作区的文件（无视修改）
 
-git diff 比较工作区和暂存区的差异
-git diff --staged 比较暂存区和版本库的差异
-git diff SHA1 SHA1 比较不同版本库的差异
+git diff 比较工作区和暂存区的差异</br>
+git diff --staged 比较暂存区和版本库的差异</br>
+git diff SHA1 SHA1 比较不同版本库的差异</br>
 git diff brancgname 比较不同分支的差异
 
-git stash 保存当前工作状态并返回修改之前的状态
-git stash list 查看保存的工作状态
-git stash apply stash@{number} 拉回保存的修改到本地
-git stash pop stash@{number}拉回修改 并删除记录
+git stash 保存当前工作状态并返回修改之前的状态</br>
+git stash list 查看保存的工作状态</br>
+git stash apply stash@{number} 拉回保存的修改到本地</br>
+git stash pop stash@{number}拉回修改 并删除记录</br>
 git stash drop stash@{number} 删除保存的记录
 
 VsCode
-Shitt+Art+↓ //复制当前行
-Shift+Ctrl+K //删除当前行
+Shitt+Art+↓ //复制当前行</br>
+Shift+Ctrl+K //删除当前行</br>
 Ctrl+Enter //新起一行
+
