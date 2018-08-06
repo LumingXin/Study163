@@ -1,5 +1,10 @@
 git常用命令：
 
+git config --global user.name "xxx"
+git config --global user.email "xxx@xxx.com"
+$ ssh-keygen -t rsa -C youremail@example.com
+[c 盘->用户->自己的用户名->.ssh]
+
 git remote -v 查看远程仓库
 
 git reset HEAD filename 拉取最近一次"提交区"文件到"暂存区"但不影响"工作区"</br>
