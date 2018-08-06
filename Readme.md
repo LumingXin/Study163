@@ -1,9 +1,9 @@
 git常用命令：
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 
-git config --global user.name "xxx"
-git config --global user.email "xxx@xxx.com"
-$ ssh-keygen -t rsa -C youremail@example.com
+git config --global user.name "xxx"</br>
+git config --global user.email "xxx@xxx.com"</br>
+$ ssh-keygen -t rsa -C youremail@example.com</br>
 [c 盘->用户->自己的用户名->.ssh]
 
 git remote -v 查看远程仓库
