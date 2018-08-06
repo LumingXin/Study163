@@ -1,22 +1,87 @@
 <!-- form 表单元素 -->
-<form>
-<div><label>姓名<input></label></div>
-<div><label>电话<input type="tel"></label></div>
-<div><label>邮箱<input type="email"></label></div>
-<fieldset>
-    <legend>披萨大小</legend>
-    <label><input type="radio" name="size">小</label>
-    <label><input type="radio" name="size">中</label>
-    <label><input type="radio" name="size">大</label>
-</fieldset>
-<fieldset>
-    <legend>披萨配料</legend>
-    <label><input type="checkbox">熏肉</label>
-    <label><input type="checkbox">奶酪</label>
-    <label><input type="checkbox">洋葱</label>
-    <label><input type="checkbox">蘑菇</label>
-</fieldset>
-<div><label>配送时间<input type="time" min="11:00" max="21:00" step="900"></label></div>
-<div><button>提交订单</button></div>
+ <!-- 所有表单都是从 form 元素 开始 -->
+ <!-- label 表单控件的标题 -->
+ <!-- option 选项 可以内嵌在 select datalist optgroup 元素里 -->
+ <form><!-- 表单控件集合 禁止嵌套 -->
+    <div><label>姓名：<input></label></div>
+    <div><label>电话：<input type="tel" required></label></div> <!-- required 用户必填元素 -->
+    <div><label>邮箱：<input type="email"></label></div>
 
+    <fieldset><!-- 使用该元素 视觉成为一组 -->
+       <legend>披萨大小</legend><!-- 控件标题元素 -->
+       <label><input type="radio" name=size>小</label>
+       <label><input type="radio" name=size>小</label>
+       <label><input type="radio" name=size>小</label>
+    </fieldset>
+
+    <fieldset><!-- 使用该元素 视觉成为一组 -->
+       <legend>配料</legend><!-- 控件标题元素 -->
+       <label><input type="checkbox">洋葱</label>
+       <label><input type="checkbox">洋葱</label>
+       <label><input type="checkbox">洋葱</label>
+    </fieldset>
+    <div><label>配送时间：<input type="time" min="11:00" max="21:00" step="900"></label></div>
+    <div><button>提交订单</button></div>
 </form>
+
+<select size="0"><!-- 列表选择器 -->
+    <option value="1">菜单选项-1</option>
+    <option value="1">菜单选项-2</option>
+    <option value="1">菜单选项-3</option>
+</select>
+
+<select><!-- 列表选择器 可以添加disabled属性禁用选择 或某个分组或选项 -->
+   <optgroup label="8.01"><!-- 选项分组 该项不可选 -->
+       <option value="">8.01.1</option>
+       <option value="">8.01.2</option>
+   <optgroup label="8.02">
+       <option value="">8.02.1</option>
+       <option value="">8.02.2</option>
+   <optgroup label="8.03">
+       <option value="">8.03.1</option>
+       <option value="">8.03.2</option>
+</select>
+<p></p>
+
+<textarea> <!-- 多行文本输入控件 -->
+   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque doloribus illum exercitationem consequuntur labore quis suscipit, consectetur deserunt sequi dolor molestias nulla ea amet architecto culpa, nam nostrum beatae saepe.
+</textarea>
+<p></p>
+
+<!-- progress 任务进度信息控件 -->
+<progress value="50" max="100"></progress> <!-- 确定进度 -->
+<progress max="100"></progress> <!-- 不确定进度 -->
+
+<!-- fieldset 分组表单控件 -->
+<fieldset>
+    <legend>Display</legend>
+    <p><label><input type="radio" name="c" value="0" checked>Black on White</label></p>
+    <p><label><input type="radio" name="c" value="1">Black on White</label></p>
+    <p><label><input type="checkbox">Black on White</label></p>
+</fieldset>
+<p> </p>
+
+<!-- search 搜索输入框 -->
+<input type="search" list="kewords">
+<datalist id="kewords">
+    <option value="Femal"></option>
+    <option value="Male"></option>
+</datalist>
+
+<!-- file文本选择器 accept文件过滤类型 multiple支持多个文件 --> 
+<input type="file" accept="audio/*,video/*" multiple>
+
+<!-- range范围选择控件 -->
+<input type="range" min="1" max="10" list="range">
+<datalist id="range">
+    <option value="1"></option>
+    <option value="5"></option>
+    <option value="10"></option>
+</datalist>
+
+<fieldset>
+    <button>
+    
+    </button>
+</fieldset>
+<img src="/HTML/update.jpg" alt="" id="button">

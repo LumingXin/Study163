@@ -2,10 +2,6 @@ git常用命令：
 
 git remote -v 查看远程仓库
 
-git add 将文件保存到暂存区.
-
-git commit -m 'XXX' XXX表示提交说明，该命令是将文件从暂存区提交到提交区
-
 git reset HEAD filename 拉取最近一次"提交区"文件到"暂存区"但不影响"工作区"</br>
 git checkout -- filename 拉取"暂存区"文件替换到"工作区"
 
