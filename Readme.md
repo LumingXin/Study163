@@ -1,5 +1,6 @@
 git常用命令：
-"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"</br>
+git@github.com:youname/项目名称.git
 
 git config --global user.name "xxx"</br>
 git config --global user.email "xxx@xxx.com"</br>
