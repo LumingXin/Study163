@@ -1,4 +1,4 @@
-git常用命令：
+git常用命令：</br>
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"</br>
 git@github.com:youname/项目名称.git
 
