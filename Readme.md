@@ -25,7 +25,7 @@ git stash apply stash@{number} 拉回保存的修改到本地</br>
 git stash pop stash@{number}拉回修改 并删除记录</br>
 git stash drop stash@{number} 删除保存的记录
 
-VsCode
+VsCode</br>
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"(将Git bash设置为默认终端)</br>
 Shitt+Art+↓ //复制当前行</br>
 Shift+Ctrl+K //删除当前行</br>
