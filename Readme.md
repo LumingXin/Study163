@@ -1,5 +1,4 @@
 git常用命令：</br>
-"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"</br>
 git@github.com:youname/项目名称.git
 
 git config --global user.name "xxx"</br>
@@ -27,7 +26,8 @@ git stash pop stash@{number}拉回修改 并删除记录</br>
 git stash drop stash@{number} 删除保存的记录
 
 VsCode
+"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"(将Git bash设置为默认终端)</br>
 Shitt+Art+↓ //复制当前行</br>
 Shift+Ctrl+K //删除当前行</br>
-Ctrl+Enter //新起一行
+Ctrl+Enter //新起一行</br>
 
