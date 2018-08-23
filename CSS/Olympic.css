@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.black,
+.yellow,
+.blue,
+.green,
+.red{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.blue{
+    border-color: blue;
+    top: 0;
+    left: 0;
+}
+
+.black{
+    border-color: black;
+    top: 0;
+    left: 130px;
+}
+
+.red{
+    border-color: red;
+    top: 0;
+    left: 260px;
+}
+
+.yellow{
+    border-color: yellow;
+    top: 60px;
+    left: 60px;
+}
+
+.green{
+    border-color: green;
+    top: 60px;
+    left: 190px;
+}
+
+.only{
+    position: absolute;
+    height: 180px;
+    width: 380px;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -90px;
+    /* border: 10px solid black; */
+
+}
