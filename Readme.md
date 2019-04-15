@@ -31,3 +31,16 @@ Shitt+Art+↓ //复制当前行</br>
 Shift+Ctrl+K //删除当前行</br>
 Ctrl+Enter //新起一行</br>
 
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontSize": 15,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "vsicons.presets.hideExplorerArrows": true,
+    "editor.minimap.enabled": true,
+}
