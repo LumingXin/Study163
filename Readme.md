@@ -8,6 +8,17 @@ $ ssh-keygen -t rsa -C youremail@example.com</br>
 
 git remote -v 查看远程仓库
 
+git add 将文件保存到暂存区
+git commit -m 'XXX' XXX表示提交说明，该命令是将文件从暂存区提交到提交区
+git commit -am 'XXX' 等同于git commit -a -m 'XXX'  XXX表示提交说明，该命令是将文件直接提交到提交区，仅对已经有过提交记录的文件有效，新创建的文件依旧需要git add后再git commit
+git push 提交内容到远程仓库
+
+git reset HEAD filename 拉取最近一次"提交区"文件到"暂存区"但不影响"工作区"
+git checkout -- filename 拉取"暂存区"文件替换到"工作区"
+
+git rm --cahead filename 删除暂存区的文件
+git rm -f filename 删除暂存区和工作区的文件（无视修改）
+
 git reset HEAD filename 拉取最近一次"提交区"文件到"暂存区"但不影响"工作区"</br>
 git checkout -- filename 拉取"暂存区"文件替换到"工作区"
 
