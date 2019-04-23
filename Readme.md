@@ -55,3 +55,12 @@ Ctrl+Enter //新起一行</br>
     "vsicons.presets.hideExplorerArrows": true,
     "editor.minimap.enabled": true,
 }
+
+css权重器（256进制
+
+！important         Infinity
+行间样式            1000
+id                   100
+class|属性|伪类       10
+标签|伪元素            1
+通配符                 0
