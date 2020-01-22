@@ -1,4 +1,19 @@
 git常用命令：</br>
+四种状态</br>
+    1.Untracked 未被追踪</br>
+    2.Modified 已修改的</br>
+    3.Staged 已暂存的</br>
+    4.Committed 已提交的
+
+三层结构</br>
+    1.working-directory 工作区 git dd</br>
+    2.staging-index 暂存区 git commit -m 'XXX'</br>
+    3.git-directory 版本库 git push
+
+git config</br>
+    git config --global user.name xxx</br>
+    git config --global user.email xxx@x.xx
+    
 git@github.com:youname/项目名称.git
 
 git config --global user.name "xxx"</br>
@@ -35,32 +50,3 @@ git stash list 查看保存的工作状态</br>
 git stash apply stash@{number} 拉回保存的修改到本地</br>
 git stash pop stash@{number}拉回修改 并删除记录</br>
 git stash drop stash@{number} 删除保存的记录
-
-VsCode</br>
-"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"(将Git bash设置为默认终端)</br>
-Shitt+Art+↓ //复制当前行</br>
-Shift+Ctrl+K //删除当前行</br>
-Ctrl+Enter //新起一行</br>
-
-{
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Visual Studio Dark",
-    "editor.fontSize": 15,
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.wordWrap": "on",
-    "window.zoomLevel": 0,
-    "breadcrumbs.enabled": false,
-    "editor.renderControlCharacters": false,
-    "vsicons.presets.hideExplorerArrows": true,
-    "editor.minimap.enabled": true,
-}
-
-css权重器（256进制
-
-！important         Infinity
-行间样式            1000
-id                   100
-class|属性|伪类       10
-标签|伪元素            1
-通配符                 0
